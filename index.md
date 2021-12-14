@@ -17,6 +17,8 @@ During our analysis we are going to try to find answers to the question 'What wa
 
 ### The data
 
+The data we used contains datasets of Twitter quotes from 2015 to 2020. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself. 
+
 Tesla’s primary platform of news and promotion is Elon Musk’s Twitter account. Think about it. You’ve never seen a Tesla speeding on a winding mountain road in a TV commercial, its virtues extolled by an unbilled Jon Hamm voiceover. You’ve never heard a radio ad offering to “get you in a Tesla! Today!” There’s no social media strategy attempting on-brand Tesla memes tied into whatever weird thing just happened at the Super Bowl. Yet one significantly random tweet from Musk receives infinite news coverage beyond social media, reaching even those who prefer real life over their cellphones. Consider that $40 million the cost of a top-tier Silicon Valley marketing team that Tesla doesn’t have. Otherwise, Twitter is free.
 
 Certainly, we can’t know what “worth it” means to Musk, who claimed his August tweet “considering taking Tesla private at $420” was a weed o’clock wink to his woman friend Grimes. Then again, 80% of chief marketing officers at U.S. companies aren’t sure of the value of social media outreach, according to the biannual CMO Survey. These are among the same CMOs signing off on the billions of dollars brands spend on social media they can’t quantify.
@@ -25,14 +27,15 @@ As of October, Musk has 23.3 million Twitter followers, up almost 5% from the 22
 
 
 
+
 ### Methods
 
-
+On each five datasets we first check which quotes belong to Elon Musk and write them in a new file. 
 ### Data in numbers
 
 (insert pictures and graohs) and analyse them
 
-
+<img width="924" alt="Screenshot 2021-12-14 at 16 49 36" src="https://user-images.githubusercontent.com/92207222/146021223-c579bade-a3e1-46d7-a1e8-3c6f36700448.png">
 
 
 
