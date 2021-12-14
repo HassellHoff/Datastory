@@ -12,6 +12,32 @@ It has been claimed that Elon Musk's twitter account could be Tesla's primary ma
 
 During our analysis we are going to try to find answers to the question 'What was the most signifficant event that affected the stock price?'. This observation will tell us just how much Elon has managed to move Tesla's stock with one simple Twitter post. 
 
+
+
+
+### The data
+
+Tesla’s primary platform of news and promotion is Elon Musk’s Twitter account. Think about it. You’ve never seen a Tesla speeding on a winding mountain road in a TV commercial, its virtues extolled by an unbilled Jon Hamm voiceover. You’ve never heard a radio ad offering to “get you in a Tesla! Today!” There’s no social media strategy attempting on-brand Tesla memes tied into whatever weird thing just happened at the Super Bowl. Yet one significantly random tweet from Musk receives infinite news coverage beyond social media, reaching even those who prefer real life over their cellphones. Consider that $40 million the cost of a top-tier Silicon Valley marketing team that Tesla doesn’t have. Otherwise, Twitter is free.
+
+Certainly, we can’t know what “worth it” means to Musk, who claimed his August tweet “considering taking Tesla private at $420” was a weed o’clock wink to his woman friend Grimes. Then again, 80% of chief marketing officers at U.S. companies aren’t sure of the value of social media outreach, according to the biannual CMO Survey. These are among the same CMOs signing off on the billions of dollars brands spend on social media they can’t quantify.
+
+As of October, Musk has 23.3 million Twitter followers, up almost 5% from the 22.2 million followers clocked at the time of the “$420” tweet, according to Socialbakers. That’s close to the average month-to-month growth of top brands on Twitter. For good or ill, no other automotive brand has the reach and impact of Musk’s tweets. At this, Musk is second only to the U.S. president. And this sort of advertising isn't replicable. 
+
+
+
+### Methods
+
+
+### Data in numbers
+
+(insert pictures and graohs) and analyse them
+
+
+
+
+
+
+
 ```markdown
 Syntax highlighted code block
 
