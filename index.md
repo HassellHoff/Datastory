@@ -40,12 +40,11 @@ For the analysis we used three different pre-trained machine learning methods of
 ### Data in numbers
 
 
-
 <img width="924" alt="Screenshot 2021-12-14 at 16 49 36" src="https://user-images.githubusercontent.com/92207222/146021223-c579bade-a3e1-46d7-a1e8-3c6f36700448.png">
 The number of Elon Musk quotes in respective to time. 
 
+<img width="787" alt="Screenshot 2021-12-16 at 0 53 33" src="https://user-images.githubusercontent.com/92207222/146277634-dd383f9b-d49d-4fb2-9280-5216e70996ac.png">
 
-![Screenshot 2021-12-15 at 21 59 47](https://user-images.githubusercontent.com/92207222/146256546-f1d4fd84-6134-479c-97a3-5140a579db84.png)
 
 
 ```markdown
