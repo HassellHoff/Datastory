@@ -45,6 +45,9 @@ The number of Elon Musk quotes in respective to time.
 
 <img width="787" alt="Screenshot 2021-12-16 at 0 53 33" src="https://user-images.githubusercontent.com/92207222/146277634-dd383f9b-d49d-4fb2-9280-5216e70996ac.png">
 
+<img width="389" alt="Screenshot 2021-12-16 at 0 58 46" src="https://user-images.githubusercontent.com/92207222/146278018-1b056e7a-61b2-43a4-a144-5060b7badd36.png">
+
+
 
 
 ```markdown
