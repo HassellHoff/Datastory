@@ -31,7 +31,7 @@ For the analysis we used three different pre-trained machine learning methods of
 
 ![Screenshot 2021-12-15 at 19 47 51](https://user-images.githubusercontent.com/92207222/146238481-25c4fc77-8682-4f13-b281-015adb41862c.png)
 
-![Screenshot 2021-12-15 at 19 42 02](https://user-images.githubusercontent.com/92207222/146238250-e6baa816-bc2f-480f-9254-be7005959b06.png)
+![Screenshot 2021-12-15 at 19 49 17](https://user-images.githubusercontent.com/92207222/146238725-f41d59f1-624e-43cb-b37c-31b133ec6fbb.png)
 
 
 ### Data in numbers
