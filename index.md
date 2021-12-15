@@ -7,14 +7,13 @@ Elon Musk is the world's richest person and is famous for gaining attention for 
 
 It has been claimed that Elon Musk's twitter account could be Tesla's primary marketing tool since Tesla does not invest in marketing at all. The hypothesis of our analysis definately backs this theory. (Add something here)
 
-During our analysis we are going to try to find answers to the question 'What was the most signifficant event that affected the stock price?'. This observation will tell us just how much Elon has managed to move Tesla's stock with one post. 
-
+During our analysis we are going to try to find answers to the question 'What was the most signifficant event that affected the stock price?', 'Did the usage of certain words have a significant impact on the stock price?' and 'How accurate is our new machine learning model in predicting Tesla's stock price?'. This observation will tell us just how much Elon has managed to move Tesla's stock with one post. 
 
 
 
 ### The data and preprocessing
 
-The data we used are datasets imported from Yahoo Finance which consist of quotes from 2015 to 2020. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself. In addition to the quotes we imported the stock prices of Tesla from the same years. From the stock prices we were able to generate the daily returns for one stock. 
+The data we used are datasets imported from Yahoo Finance which consist of quotes from 2015 to 2020. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself. In addition to the quotes we imported the stock prices of Tesla from the same years. From the stock prices we were able to generate the daily returns for one stock. Since the stock market is closed during weekends we had to take this in account on our data pre-processing. We moved the quotes from weekends to the next Monday.
 
 
 
@@ -27,9 +26,9 @@ The data we used are datasets imported from Yahoo Finance which consist of quote
 On each five datasets we first check which quotes belong to Elon Musk and write them in a new file. In our datastory, we focused on a major phenomena: what kind of correlation exists between Elon Musk quotes and the Tesla stock price? 
 We will analyse this phenomena by studying the quotes made and see how Tesla's stock was impacted from a specific kind of post. The post quality will be examined by parsing each quote into separate words and analyse which words played a signifficant role in shifting the stock market price. In addition, another factor that we believe impacts the stock price of Tesla is the volume of posts made by Musk each day he posted.
 
-For the analysis we used three different pre-trained machine learning methods of sentiment analysis, which are FinBERT, Valder and Textblob sentiment analysis.
+***Take away from blog: FinBERT, mentioning considering us studying the number of post that Elon made***
 
-![Screenshot 2021-12-15 at 19 47 51](https://user-images.githubusercontent.com/92207222/146238481-25c4fc77-8682-4f13-b281-015adb41862c.png)
+For the analysis we used three different pre-trained machine learning methods of sentiment analysis, which are FinBERT, Valder and Textblob sentiment analysis.
 
 ![Screenshot 2021-12-15 at 19 49 17](https://user-images.githubusercontent.com/92207222/146238725-f41d59f1-624e-43cb-b37c-31b133ec6fbb.png)
 
