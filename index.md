@@ -12,9 +12,10 @@ During our analysis we are going to try to find answers to the question 'What wa
 
 
 
-### The data
+### The data and preprocessing
 
-The data we used are datasets imported from Yahoo Finance which consist of Twitter quotes from 2015 to 2020. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself. In addition to the quotes we imported the stock prices of Tesla from the same years. 
+The data we used are datasets imported from Yahoo Finance which consist of Twitter quotes from 2015 to 2020. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself. In addition to the quotes we imported the stock prices of Tesla from the same years. From the stock prices we were able to generate the daily returns for one stock. 
+
 
 
 <img width="424" alt="Screenshot 2021-12-15 at 13 49 10" src="https://user-images.githubusercontent.com/92207222/146181293-b78e70e5-1aeb-4aec-bc48-7bff0c6743ec.png">
