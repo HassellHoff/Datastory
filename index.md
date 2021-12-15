@@ -29,7 +29,7 @@ We will analyse this phenomena by studying the quotes made and see how Tesla's s
 
 For the analysis we used three different pre-trained machine learning methods of sentiment analysis, which are FinBERT, Valder and Textblob sentiment analysis.
 
-![Screenshot 2021-12-15 at 19 31 55](https://user-images.githubusercontent.com/92207222/146238236-aa712615-b579-4867-a547-ffa52d9326a6.png)
+![Screenshot 2021-12-15 at 19 47 51](https://user-images.githubusercontent.com/92207222/146238481-25c4fc77-8682-4f13-b281-015adb41862c.png)
 
 ![Screenshot 2021-12-15 at 19 42 02](https://user-images.githubusercontent.com/92207222/146238250-e6baa816-bc2f-480f-9254-be7005959b06.png)
 
