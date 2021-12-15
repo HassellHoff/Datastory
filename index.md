@@ -24,7 +24,14 @@ The data we used are datasets imported from Yahoo Finance which consist of Twitt
 
 ### Methods
 
-On each five datasets we first check which quotes belong to Elon Musk and write them in a new file. 
+On each five datasets we first check which quotes belong to Elon Musk and write them in a new file. In our datastory, we focused on a major phenomena: what kind of correlation exists between Elon Musk quotes on Twitter and the Tesla stock price? 
+We will analyse this phenomena by studying the quotes made and see how Tesla's stock was impacted from a specific kind of post. The post quality will be examined by parsing each quote into separate words and analyse which words played a signifficant role in shifting the stock market price. In addition, another factor that we believe impacts the stock price of Tesla is the volume of posts made by Musk each day he posted.
+
+For the analysis we used three different pre-trained machine learning methods of sentiment analysis, which are FinBERT, Valder and Textblob sentiment analysis.
+
+1. FinBERT: 
+
+
 ### Data in numbers
 
 (insert pictures and graohs) and analyse them
