@@ -64,26 +64,28 @@ The quotes were split into separate words and each word was classified using the
 
 <img width="1579" alt="Screenshot 2021-12-16 at 19 04 40" src="https://user-images.githubusercontent.com/92207222/146416358-69a99360-e441-4c43-88d0-ea69deb5b80c.png">
 
-***Figure : *** Quotes during 2015
+***Figure 4:*** Quotes during 2015
 
 <img width="1577" alt="Screenshot 2021-12-16 at 19 05 27" src="https://user-images.githubusercontent.com/92207222/146416487-f608c156-134c-4cac-aa06-d77f095162c6.png">
 
-***Figure :*** Quotes during 2016
+***Figure 5:*** Quotes during 2016
 
 <img width="1573" alt="Screenshot 2021-12-16 at 19 06 19" src="https://user-images.githubusercontent.com/92207222/146416629-e780794d-3fe3-4bc4-a7a8-8dde9d3416da.png">
 
-***Figure :*** Quotes during 2017
+***Figure 6:*** Quotes during 2017
 
 
 <img width="1575" alt="Screenshot 2021-12-16 at 19 07 27" src="https://user-images.githubusercontent.com/92207222/146416771-2b8ca55f-7682-40b2-b9cc-5e117c6ddf24.png">
 
-***Figure :*** Quotes during 2018
+***Figure 7:*** Quotes during 2018
 
 <img width="1573" alt="Screenshot 2021-12-16 at 19 08 14" src="https://user-images.githubusercontent.com/92207222/146416877-d06ba6a5-fdfe-4355-9319-48490bd9ee13.png">
 
-***Figure :*** Quotes during 2019
+***Figure 8:*** Quotes during 2019
 
 
+
+***Figure 9:*** Quotes during 2020
 
 
 
@@ -94,7 +96,7 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 <img width="1661" alt="Screenshot 2021-12-16 at 11 16 07" src="https://user-images.githubusercontent.com/92207222/146342895-e4ce48b8-0772-40a5-a414-9d50ddaffce6.png">
 
-***Figure 4:*** Comparison results between the two pre-trained models Textblob and Vader
+***Figure 10:*** Comparison results between the two pre-trained models Textblob and Vader
 
 
 
@@ -109,7 +111,7 @@ https://www.dontdiewondering.com/elon-musks-most-controversial-tweets/
 
 <img width="1616" alt="Screenshot 2021-12-16 at 12 17 18" src="https://user-images.githubusercontent.com/92207222/146352961-00c2a1e3-08fd-418a-982a-a03dad7e3141.png">
 
-***Figure 5:*** Correlation between the stock price and words used by Elon Musk
+***Figure 11:*** Correlation between the stock price and words used by Elon Musk
 
 
 Generally speaking we can see that when the quotes had a value of -0.2 to 0.4 the returns had a general turnover rate between -0.05 and 0.05. We could state that while the quotes were on a neutral level, the impact on the returns of the stocks was also on a controlled level. However some interesting exceptions linger in the correlation. For example, the stock price didn't ever drop signifficantly when the quote consisted of majourly of negative quotes. The chart can be easily misleading if we don't keep in mind the fact that each negative quote only tells the average of the score of words that it consisted of. This does not necessarily mean that something bad was said about Tesla. However, as picture 4 indicates, Elon Musk has provenly been giving quotes with a negative ringing which have inreturn impacted negatively on the stock price.
