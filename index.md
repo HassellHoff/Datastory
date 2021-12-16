@@ -13,7 +13,7 @@ During our analysis we are going to try to find answers to the question 'What wa
 
 ### The data and preprocessing
 
-The data we used are datasets imported from Yahoo Finance which consist of quotes from 2015 to 2020. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself. In addition to the quotes we imported the stock prices of Tesla from the same years. From the stock prices we were able to generate the daily returns for one stock. 
+The data we used are datasets imported from Yahoo Finance which consist of stock prices from 2015 to 2020. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself. In addition to the quotes we imported the stock prices of Tesla from the same years. From the stock prices we were able to generate the daily returns for one stock. 
 
 
 
@@ -83,6 +83,11 @@ Generally speaking we can see that when the quotes had a value of -0.2 to 0.4 th
 ![Screenshot 2021-12-16 at 14 29 54](https://user-images.githubusercontent.com/92207222/146372340-16b61c55-e632-4c43-a91e-799d91153ac6.png)
 ***Picture 4:*** The impact of Elon Musk's quotes on the stock price of Tesla
 
+
+
+
+
+### Conclusion
 
 
 
