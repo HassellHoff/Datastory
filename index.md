@@ -13,7 +13,7 @@ During our analysis we are going to try to find answers to the question 'What wa
 
 ### The data and preprocessing
 
-The data we used are datasets imported from Yahoo Finance which consist of quotes from 2015 to 2020. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself. In addition to the quotes we imported the stock prices of Tesla from the same years. From the stock prices we were able to generate the daily returns for one stock. Since the stock market is closed during weekends we had to take this in account on our data pre-processing. We moved the quotes from weekends to the next Monday.
+The data we used are datasets imported from Yahoo Finance which consist of quotes from 2015 to 2020. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself. In addition to the quotes we imported the stock prices of Tesla from the same years. From the stock prices we were able to generate the daily returns for one stock. 
 
 
 
@@ -39,6 +39,7 @@ For the analysis we used three different pre-trained machine learning methods of
 
 ### Data in numbers
 
+Since the stock market is closed during weekends we had to take this in account on our data pre-processing. We moved the quotes from weekends to the next Monday.
 
 <img width="924" alt="Screenshot 2021-12-14 at 16 49 36" src="https://user-images.githubusercontent.com/92207222/146021223-c579bade-a3e1-46d7-a1e8-3c6f36700448.png">
 The number of Elon Musk quotes in respective to time. 
