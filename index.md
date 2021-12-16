@@ -43,6 +43,7 @@ The Vader sentimental analysis model returns the compound score that informs if 
 
 ***Picture 3:*** The Textblob method
 
+For the second model, we used TextBlob, another pretrained model to do the sentiment analysis. This model returns two values : the polarity (ie how much a quote is positive or negative) in a range between -1 and 1, and the subjectivity (ie how much the content of a quote is objective or not) in a range between 0 and 1.
 
 
 ### Data in numbers
@@ -65,7 +66,10 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 
 
+###The impact of the quotes on the stock price
 
+***"I was always crazy on Twitter" - Elon Musk***
+https://www.dontdiewondering.com/elon-musks-most-controversial-tweets/
 
 <img width="1616" alt="Screenshot 2021-12-16 at 12 17 18" src="https://user-images.githubusercontent.com/92207222/146352961-00c2a1e3-08fd-418a-982a-a03dad7e3141.png">
 ***Figure 5:*** Correlation between the stock price and words used by Elon Musk
