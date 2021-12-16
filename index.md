@@ -60,6 +60,33 @@ Since the stock market is closed during weekends we had to take this in account 
 
 The quotes were split into separate words and each word was classified using the Textblob pre-trained model that can give them a value between [1, -1] based on their objectivity or subjectivity. If the value is in range [1, 0] the word had a subjective nature and if the value generated from Texblob is in between [0, -1] it has a more objective nature. This tokenizing method is needed in further analysis, because it enables us to give weight to different words that Elon Musk used in quotes. Because of this we can now summarize a value for each quote that consists of words with different integer values from -1 to 1.
 
+### The volume of quotes between 2015 - 2020
+
+<img width="1579" alt="Screenshot 2021-12-16 at 19 04 40" src="https://user-images.githubusercontent.com/92207222/146416358-69a99360-e441-4c43-88d0-ea69deb5b80c.png">
+
+***Figure : *** Quotes during 2015
+
+<img width="1577" alt="Screenshot 2021-12-16 at 19 05 27" src="https://user-images.githubusercontent.com/92207222/146416487-f608c156-134c-4cac-aa06-d77f095162c6.png">
+
+***Figure :*** Quotes during 2016
+
+<img width="1573" alt="Screenshot 2021-12-16 at 19 06 19" src="https://user-images.githubusercontent.com/92207222/146416629-e780794d-3fe3-4bc4-a7a8-8dde9d3416da.png">
+
+***Figure :*** Quotes during 2017
+
+
+<img width="1575" alt="Screenshot 2021-12-16 at 19 07 27" src="https://user-images.githubusercontent.com/92207222/146416771-2b8ca55f-7682-40b2-b9cc-5e117c6ddf24.png">
+
+***Figure :*** Quotes during 2018
+
+<img width="1573" alt="Screenshot 2021-12-16 at 19 08 14" src="https://user-images.githubusercontent.com/92207222/146416877-d06ba6a5-fdfe-4355-9319-48490bd9ee13.png">
+
+***Figure :*** Quotes during 2019
+
+
+
+
+
 ### Comparison between Textblob and Vader
 
 
