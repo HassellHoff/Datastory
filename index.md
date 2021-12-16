@@ -68,7 +68,8 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 ###The impact of the quotes on the stock price
 
-***"I was always crazy on Twitter" - Elon Musk***
+*** "I was always crazy on Twitter" - Elon Musk ***
+
 https://www.dontdiewondering.com/elon-musks-most-controversial-tweets/
 
 <img width="1616" alt="Screenshot 2021-12-16 at 12 17 18" src="https://user-images.githubusercontent.com/92207222/146352961-00c2a1e3-08fd-418a-982a-a03dad7e3141.png">
