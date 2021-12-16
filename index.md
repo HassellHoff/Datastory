@@ -18,6 +18,7 @@ The data we used are datasets imported from Yahoo Finance which consist of quote
 
 
 <img width="424" alt="Screenshot 2021-12-15 at 13 49 10" src="https://user-images.githubusercontent.com/92207222/146181293-b78e70e5-1aeb-4aec-bc48-7bff0c6743ec.png">
+Figure 1: Tesla's stock price graph
 
 
 
@@ -27,13 +28,15 @@ On each five datasets we first check which quotes belong to Elon Musk and write 
 We will analyse this phenomena by studying the quotes made and see how Tesla's stock was impacted from a specific kind of post. The post quality will be examined by parsing each quote into separate words and analyse which words played a signifficant role in shifting the stock market price. In addition, another factor that we believe impacts the stock price of Tesla is the volume of posts made by Musk each day he posted.
 
 ![Screenshot 2021-12-16 at 12 51 25](https://user-images.githubusercontent.com/92207222/146358193-db438f2d-9e85-464b-9c4a-8af4fbd1d26f.png)
+***Picture 1:*** The process of the data handling
 
 For the analysis we used two different pre-trained machine learning methods of sentiment analysis, which were Valder and Textblob sentiment analysis models.
 
 ![Screenshot 2021-12-15 at 19 49 17](https://user-images.githubusercontent.com/92207222/146238725-f41d59f1-624e-43cb-b37c-31b133ec6fbb.png)
+***Picture 2:*** The Vader method
 
 ![Screenshot 2021-12-15 at 21 05 53](https://user-images.githubusercontent.com/92207222/146249209-00a8754e-a9d2-41c8-9826-02dca00f1ef6.png)
-
+***Picture 3:*** The Textblob method
 
 
 
