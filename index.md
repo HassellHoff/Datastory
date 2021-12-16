@@ -58,13 +58,14 @@ Since the stock market is closed during weekends we had to take this in account 
 
 The quotes were split into separate words and each word was classified using the Textblob pre-trained model that can give them a value between [1, -1] based on their objectivity or subjectivity. If the value is in range [1, 0] the word had a subjective nature and if the value generated from Texblob is in between [0, -1] it has a more objective nature. This tokenizing method is needed in further analysis, because it enables us to give weight to different words that Elon Musk used in quotes. Because of this we can now summarize a value for each quote that consists of words with different integer values from -1 to 1.
 
+### Comparison between Textblob and Vader
+
+
 <img width="1661" alt="Screenshot 2021-12-16 at 11 16 07" src="https://user-images.githubusercontent.com/92207222/146342895-e4ce48b8-0772-40a5-a414-9d50ddaffce6.png">
 ***Figure 4:*** Comparison results between the two pre-trained models Textblob and Vader
 
 
 We can see that both analysis indicate similar results. The quotes consisted mostly of positive words (words that have a value above zero), but we should keep in mind that roughly 70% of the positive quotes are close to the value zero. This means that majority of the quotes contain words that are neutrally positive rather than over positive. 
-
-### Comparison between Textblob and Vader
 
 ### The impact of the quotes on the stock price
 
