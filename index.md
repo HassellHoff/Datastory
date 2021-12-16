@@ -64,7 +64,7 @@ The quotes were split into separate words and each word was classified using the
 
 We can see that both analysis indicate similar results. The quotes consisted mostly of positive words (words that have a value above zero), but we should keep in mind that roughly 70% of the positive quotes are close to the value zero. This means that majority of the quotes contain words that are neutrally positive rather than over positive. 
 
-
+### Comparison between Textblob and Vader
 
 ### The impact of the quotes on the stock price
 
