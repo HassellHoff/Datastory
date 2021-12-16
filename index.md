@@ -13,21 +13,19 @@ The purpose of our project is to find correlations between the stock price of Te
 
 The data for the Tesla stocks which consist of stock prices are imported from Yahoo Finance and the quotes from different speakers are from QuoteBank. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself and wrote the filtered data on a new file. From the stock prices we were able to generate the daily returns for one stock. 
 
-For the filtering and data cleaning process we used a few different methods: 
-- Removed duplicates
-- Used *groupby* to count the number of quotes said on a particular day
-- 
-
 
 <img width="424" alt="Screenshot 2021-12-15 at 13 49 10" src="https://user-images.githubusercontent.com/92207222/146181293-b78e70e5-1aeb-4aec-bc48-7bff0c6743ec.png">
 
 ***Figure 1:*** Tesla's stock price graph
 
+For the filtering and data cleaning process we used a few different methods: 
+- Removed duplicates
+- Used *groupby* to count the number of quotes said on a particular day
 
 
-### Methods used for research
 
-On each five datasets we first check which quotes belong to Elon Musk and write them in a new file. In our datastory, we focused on a major phenomena: what kind of correlation exists between Elon Musk quotes and the Tesla stock price? 
+### Methods used to create sentimental analysis
+
 We will analyse this phenomena by studying the quotes made and see how Tesla's stock was impacted from a specific kind of post. The post quality will be examined by parsing each quote into separate words and analyse which words played a signifficant role in shifting the stock market price. In addition, another factor that we believe impacts the stock price of Tesla is the volume of posts made by Musk each day he posted.
 
 ![Screenshot 2021-12-16 at 12 51 25](https://user-images.githubusercontent.com/92207222/146358193-db438f2d-9e85-464b-9c4a-8af4fbd1d26f.png)
