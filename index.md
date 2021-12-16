@@ -32,7 +32,7 @@ The quality of each quote was examined by parsing each quote into separate words
 
 ***Picture 1:*** The process of the data handling
 
-For the analysis we used two different pre-trained machine learning methods of sentiment analysis, which were Valder and Textblob sentiment analysis models. The programming portion of our project consisted of three primary steps: data filtering, performing sentiment analysis to the filtered data, and creating a correlation from Tesla's stock price data. Additionally, we wanted to create a model that can predict future stock price based on quotes. 
+For the analysis we used two different pre-trained machine learning methods of sentiment analysis, which were Valder and Textblob sentiment analysis models. The programming portion of our project consisted of three primary steps: data filtering, performing sentiment analysis to the filtered data, and creating a correlation from Tesla's stock price data. Additionally, we wanted to create a model that can predict future stock price based on quotes. The two models that were used to process the quotes said by Musk were the Vader and the Textblob methods. 
 
 ![Screenshot 2021-12-15 at 19 49 17](https://user-images.githubusercontent.com/92207222/146238725-f41d59f1-624e-43cb-b37c-31b133ec6fbb.png)
 
@@ -44,7 +44,7 @@ The Vader sentimental analysis model returns the compound score that informs if 
 
 ***Picture 3:*** The Textblob method
 
-For the second model, we used TextBlob, another pretrained model to do the sentiment analysis. This model returns two values : the polarity (ie how much a quote is positive or negative) in a range between -1 and 1, and the subjectivity (ie how much the content of a quote is objective or not) in a range between 0 and 1.
+For the second model, we used TextBlob, another pretrained model to do the sentiment analysis. This model returns two values: the polarity (ie how much a quote is positive or negative) in a range between -1 and 1, and the subjectivity (ie how much the content of a quote is objective or not) in a range between 0 and 1. 
 
 
 ### Data in numbers
@@ -102,7 +102,7 @@ Generally speaking we can see that when the quotes had a value of -0.2 to 0.4 th
 
 Interactive Plotly Plot             |  Geopandas Plot
 :-------------------------:|:-------------------------:
-<img src='https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_binging_with_babbage/blob/master/Pictures/0dd39927-7cb6-4a22-8530-03d8d00d9d51.png' width = 800 height = 300>  |<img src='https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_binging_with_babbage/blob/master/Pictures/38576432-655a-4774-88a9-e03c02ff0898.jfif' width = 800 height = 300>
+<img src='https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_binging_with_babbage/blob/master/Pictures/0dd39927-7cb6-4a22-8530-03d8d00d9d51.png' width = 800 height = 300>  width = 800 height = 300>
 
 
 ### Conclusion
