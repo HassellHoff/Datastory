@@ -59,7 +59,9 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 
 <img width="1616" alt="Screenshot 2021-12-16 at 12 17 18" src="https://user-images.githubusercontent.com/92207222/146352961-00c2a1e3-08fd-418a-982a-a03dad7e3141.png">
+***Figure 4:*** Correlation between the stock price and words used by Elon Musk
 
+Generally speaking we can see that when the quotes had a value of -0.2 to 0.4 the returns had a general turnover rate between -0.05 and 0.05. We could statte that while the quotes were on a neutral level, the impact on the returns of the stocks was also on a controlled level.
 
 
 ```markdown
