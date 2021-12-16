@@ -71,7 +71,12 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 Generally speaking we can see that when the quotes had a value of -0.2 to 0.4 the returns had a general turnover rate between -0.05 and 0.05. We could state that while the quotes were on a neutral level, the impact on the returns of the stocks was also on a controlled level. However some interesting exceptions linger in the correlation. For example, the stock price didn't ever drop signifficantly when the quote consisted of majourly of negative quotes. The chart can be easily misleading if we don't keep in mind the fact that each negative quote only tells the average of the score of words that it consisted of. This does not necessarily mean that something bad was said about Tesla. 
 
-![Screenshot 2021-12-16 at 14 27 24](https://user-images.githubusercontent.com/92207222/146371993-d25fd954-aa8b-4853-9fe9-b7f4acfe4fb1.png)
+
+
+![Screenshot 2021-12-16 at 14 29 54](https://user-images.githubusercontent.com/92207222/146372340-16b61c55-e632-4c43-a91e-799d91153ac6.png)
+
+
+
 
 
 ```markdown
