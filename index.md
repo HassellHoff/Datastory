@@ -18,6 +18,7 @@ The data we used are datasets imported from Yahoo Finance which consist of stock
 
 
 <img width="424" alt="Screenshot 2021-12-15 at 13 49 10" src="https://user-images.githubusercontent.com/92207222/146181293-b78e70e5-1aeb-4aec-bc48-7bff0c6743ec.png">
+
 ***Figure 1:*** Tesla's stock price graph
 
 
@@ -54,6 +55,7 @@ Since the stock market is closed during weekends we had to take this in account 
 ***Figure 2:*** The number of Elon Musk quotes in respective to time. 
 
 <img width="787" alt="Screenshot 2021-12-16 at 0 53 33" src="https://user-images.githubusercontent.com/92207222/146277634-dd383f9b-d49d-4fb2-9280-5216e70996ac.png">
+
 ***Figure 3:*** Classification results of the quotes
 
 The quotes were split into separate words and each word was classified using the Textblob pre-trained model that can give them a value between [1, -1] based on their objectivity or subjectivity. If the value is in range [1, 0] the word had a subjective nature and if the value generated from Texblob is in between [0, -1] it has a more objective nature. This tokenizing method is needed in further analysis, because it enables us to give weight to different words that Elon Musk used in quotes. Because of this we can now summarize a value for each quote that consists of words with different integer values from -1 to 1.
@@ -62,6 +64,7 @@ The quotes were split into separate words and each word was classified using the
 
 
 <img width="1661" alt="Screenshot 2021-12-16 at 11 16 07" src="https://user-images.githubusercontent.com/92207222/146342895-e4ce48b8-0772-40a5-a414-9d50ddaffce6.png">
+
 ***Figure 4:*** Comparison results between the two pre-trained models Textblob and Vader
 
 
@@ -69,11 +72,14 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 ### The impact of the quotes on the stock price
 
+
+
 *** "I was always crazy on Twitter" - Elon Musk ***
 
 https://www.dontdiewondering.com/elon-musks-most-controversial-tweets/
 
 <img width="1616" alt="Screenshot 2021-12-16 at 12 17 18" src="https://user-images.githubusercontent.com/92207222/146352961-00c2a1e3-08fd-418a-982a-a03dad7e3141.png">
+
 ***Figure 5:*** Correlation between the stock price and words used by Elon Musk
 
 
