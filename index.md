@@ -26,9 +26,9 @@ The data we used are datasets imported from Yahoo Finance which consist of quote
 On each five datasets we first check which quotes belong to Elon Musk and write them in a new file. In our datastory, we focused on a major phenomena: what kind of correlation exists between Elon Musk quotes and the Tesla stock price? 
 We will analyse this phenomena by studying the quotes made and see how Tesla's stock was impacted from a specific kind of post. The post quality will be examined by parsing each quote into separate words and analyse which words played a signifficant role in shifting the stock market price. In addition, another factor that we believe impacts the stock price of Tesla is the volume of posts made by Musk each day he posted.
 
-***Take away from blog: FinBERT, mentioning considering us studying the number of post that Elon made***
+![Screenshot 2021-12-16 at 12 51 25](https://user-images.githubusercontent.com/92207222/146358193-db438f2d-9e85-464b-9c4a-8af4fbd1d26f.png)
 
-For the analysis we used three different pre-trained machine learning methods of sentiment analysis, which are FinBERT, Valder and Textblob sentiment analysis.
+For the analysis we used two different pre-trained machine learning methods of sentiment analysis, which were Valder and Textblob sentiment analysis models.
 
 ![Screenshot 2021-12-15 at 19 49 17](https://user-images.githubusercontent.com/92207222/146238725-f41d59f1-624e-43cb-b37c-31b133ec6fbb.png)
 
@@ -63,7 +63,8 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 ***Figure 4:*** Correlation between the stock price and words used by Elon Musk
 
 
-Generally speaking we can see that when the quotes had a value of -0.2 to 0.4 the returns had a general turnover rate between -0.05 and 0.05. We could statte that while the quotes were on a neutral level, the impact on the returns of the stocks was also on a controlled level.
+Generally speaking we can see that when the quotes had a value of -0.2 to 0.4 the returns had a general turnover rate between -0.05 and 0.05. We could state that while the quotes were on a neutral level, the impact on the returns of the stocks was also on a controlled level. However some interesting exceptions linger in the correlation. For example, 
+
 
 
 ```markdown
