@@ -42,14 +42,15 @@ For the analysis we used three different pre-trained machine learning methods of
 Since the stock market is closed during weekends we had to take this in account on our data pre-processing. We moved the quotes from weekends to the next Monday.
 
 <img width="924" alt="Screenshot 2021-12-14 at 16 49 36" src="https://user-images.githubusercontent.com/92207222/146021223-c579bade-a3e1-46d7-a1e8-3c6f36700448.png">
-The number of Elon Musk quotes in respective to time. 
+Figure 1: The number of Elon Musk quotes in respective to time. 
 
 <img width="787" alt="Screenshot 2021-12-16 at 0 53 33" src="https://user-images.githubusercontent.com/92207222/146277634-dd383f9b-d49d-4fb2-9280-5216e70996ac.png">
+Figure 2: Classification results of the quotes
 
 The quotes were split into separate words and each word was classified using the Textblob pre-trained model that can give them a value between [1, -1] based on their objectivity or subjectivity. If the value is in range [1, 0] the word had a subjective nature and if the value generated from Texblob is in between [0, -1] it has a more objective nature. This classification method is needed in further analysis, because it enables us to give weight to different words that Elon Musk used in quotes.
 
 <img width="1661" alt="Screenshot 2021-12-16 at 11 16 07" src="https://user-images.githubusercontent.com/92207222/146342895-e4ce48b8-0772-40a5-a414-9d50ddaffce6.png">
-
+Figure 3: Comparison results between the two pre-trained models Textblob and Vader
 
 
 ```markdown
