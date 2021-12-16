@@ -66,7 +66,7 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 
 
-###The impact of the quotes on the stock price
+### The impact of the quotes on the stock price
 
 *** "I was always crazy on Twitter" - Elon Musk ***
 
