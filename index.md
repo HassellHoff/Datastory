@@ -48,15 +48,15 @@ For the analysis we used two different pre-trained machine learning methods of s
 Since the stock market is closed during weekends we had to take this in account on our data pre-processing. We moved the quotes from weekends to the next Monday.
 
 <img width="924" alt="Screenshot 2021-12-14 at 16 49 36" src="https://user-images.githubusercontent.com/92207222/146021223-c579bade-a3e1-46d7-a1e8-3c6f36700448.png">
-***Figure 1:*** The number of Elon Musk quotes in respective to time. 
+***Figure 2:*** The number of Elon Musk quotes in respective to time. 
 
 <img width="787" alt="Screenshot 2021-12-16 at 0 53 33" src="https://user-images.githubusercontent.com/92207222/146277634-dd383f9b-d49d-4fb2-9280-5216e70996ac.png">
-***Figure 2:*** Classification results of the quotes
+***Figure 3:*** Classification results of the quotes
 
 The quotes were split into separate words and each word was classified using the Textblob pre-trained model that can give them a value between [1, -1] based on their objectivity or subjectivity. If the value is in range [1, 0] the word had a subjective nature and if the value generated from Texblob is in between [0, -1] it has a more objective nature. This tokenizing method is needed in further analysis, because it enables us to give weight to different words that Elon Musk used in quotes. Because of this we can now summarize a value for each quote that consists of words with different integer values from -1 to 1.
 
 <img width="1661" alt="Screenshot 2021-12-16 at 11 16 07" src="https://user-images.githubusercontent.com/92207222/146342895-e4ce48b8-0772-40a5-a414-9d50ddaffce6.png">
-***Figure 3:*** Comparison results between the two pre-trained models Textblob and Vader
+***Figure 4:*** Comparison results between the two pre-trained models Textblob and Vader
 
 
 We can see that both analysis indicate similar results. The quotes consisted mostly of positive words (words that have a value above zero), but we should keep in mind that roughly 70% of the positive quotes are close to the value zero. This means that majority of the quotes contain words that are neutrally positive rather than over positive. 
@@ -66,7 +66,7 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 
 <img width="1616" alt="Screenshot 2021-12-16 at 12 17 18" src="https://user-images.githubusercontent.com/92207222/146352961-00c2a1e3-08fd-418a-982a-a03dad7e3141.png">
-***Figure 4:*** Correlation between the stock price and words used by Elon Musk
+***Figure 5:*** Correlation between the stock price and words used by Elon Musk
 
 
 Generally speaking we can see that when the quotes had a value of -0.2 to 0.4 the returns had a general turnover rate between -0.05 and 0.05. We could state that while the quotes were on a neutral level, the impact on the returns of the stocks was also on a controlled level. However some interesting exceptions linger in the correlation. For example, 
