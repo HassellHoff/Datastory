@@ -90,7 +90,7 @@ The quotes were split into separate words and each word was classified using the
 ### Comparison between Textblob and Vader
 
 
-We can see that both analysis indicate similar results. The quotes consisted mostly of positive words (words that have a value above zero), but we should keep in mind that roughly 70% of the positive quotes are close to the value zero. This means that majority of the quotes contain words that are neutrally positive rather than over positive. 
+We can see that both analysis indicate similar results. The quotes consisted mostly of positive words (words that have a value above zero), but we should keep in mind that roughly 70% of the quotes are greater than zero. This means that majority of the quotes contain words that are neutrally positive rather than over positive. 
 
 <img width="1661" alt="Screenshot 2021-12-16 at 11 16 07" src="https://user-images.githubusercontent.com/92207222/146342895-e4ce48b8-0772-40a5-a414-9d50ddaffce6.png">
 
