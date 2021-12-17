@@ -11,25 +11,28 @@ The purpose of our project is to find correlations between the stock price of Te
 
 ### The data and preprocessing
 
-The data for the Tesla stocks which consist of stock prices are imported from Yahoo Finance and the quotes from different speakers are from QuoteBank. From these datasets we filtered the ones that were mentioned by the man the myth the legend Mr Elon Musk himself and wrote the filtered data on a new file. From the stock prices we were able to generate the daily returns for one stock. 
+QuoteBank data
 
+***The data:*** The data with the quotes from different speakers are from QuoteBank. From the QuoteBank data we filtered quotes that were mentioned by the man the myth the legend Mr Elon Musk himself and wrote the it on a new file.
 
-<img width="424" alt="Screenshot 2021-12-15 at 13 49 10" src="https://user-images.githubusercontent.com/92207222/146181293-b78e70e5-1aeb-4aec-bc48-7bff0c6743ec.png">
-
-***Figure 1:*** Tesla's stock price graph
-
-Since the stock market is closed during weekends we had to take this in account on our data pre-processing. We moved the quotes from weekends to the next Monday.
+***Preprocessing:*** Since during the weekends the stock markets are closed, it was necessary to move all quotes that were posted during weekends to be on the next 
+Monday. 
 
 <img width="924" alt="Screenshot 2021-12-14 at 16 49 36" src="https://user-images.githubusercontent.com/92207222/146021223-c579bade-a3e1-46d7-a1e8-3c6f36700448.png">
-***Figure 2:*** The number of Elon Musk quotes in respective to time. 
+
+***Figure 1:*** The number of Elon Musk quotes in respective to time. 
+
+Stock data
+
+***The Data:*** The Tesla stock price data was imported from Yahoo Finance. The data has the high, low, open, close, volume and adj close values. 
+***Preprocessing:*** The dataset's start and end dates were adjusted to match with the quote data
+
+<img width="1638" alt="Screenshot 2021-12-17 at 8 51 32" src="https://user-images.githubusercontent.com/92207222/146501806-c1558819-3296-4a2e-b20f-a08bae2853a5.png">
+
+***Figure 2:*** Tesla's stock price through the years
 
 
-- Removed duplicates
-- Used *groupby* to count the number of quotes said on a particular day
-
-
-
-### Models used to create sentimental analysis
+#### Phase one: Create sentimental analysis
 
 The quality of each quote was examined by parsing each quote into separate words and by tokenizing the words. Each word played a signifficant role in shifting the stock market price. In addition, another factor that we believe impacts the stock price of Tesla is the volume of posts made by Musk each day he posted.
 
@@ -52,9 +55,6 @@ The Vader sentimental analysis model returns the compound score that informs if 
 For the second model, we used TextBlob, another pretrained model to do the sentiment analysis. This model returns two values: the polarity (ie how much a quote is positive or negative) in a range between -1 and 1, and the subjectivity (ie how much the content of a quote is objective or not) in a range between 0 and 1. 
 
 
-### Phase 1: Quote classification
-
-
 
 <img width="787" alt="Screenshot 2021-12-16 at 0 53 33" src="https://user-images.githubusercontent.com/92207222/146277634-dd383f9b-d49d-4fb2-9280-5216e70996ac.png">
 
@@ -64,7 +64,7 @@ The quotes were split into separate words and each word was classified using the
 
 
 
-### Comparison between Textblob and Vader
+#### Comparison between Textblob and Vader
 
 
 We can see that both analysis indicate similar results. The quotes consisted mostly of positive words (words that have a value above zero), but we should keep in mind that roughly 70% of the quotes are greater than zero. This means that majority of the quotes contain words that are neutrally positive rather than over positive. 
@@ -76,7 +76,7 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 
 
-### The impact of the quotes on the stock price
+#### The impact of the quotes on the stock price
 
 
 
@@ -103,9 +103,7 @@ Interactive Plotly Plot             |  Geopandas Plot
 <img src='https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_binging_with_babbage/blob/master/Pictures/0dd39927-7cb6-4a22-8530-03d8d00d9d51.png' width = 800 height = 300>  width = 400 height = 300>
 
 
-### Conclusion
-
-
+#### Conclusion
 
 
 
