@@ -1,7 +1,7 @@
-## Impact of Elon Musk quotes on Tesla's stock
+# Impact of Elon Musk quotes on Tesla's stock
 
 
-### Abstract
+## Abstract
 
 Elon Musk is the world's richest person and is famous for gaining attention for his tweets that according to him half are generated while sitting on his toilet. During the recent years his tweets have gathered much attention by their impact on markets which has left investors worried. From jumping the value of cryptocurrencies such as bitcoin and dogecoin to small companies such as Gamestop Elon Musk's tweets have undeniably played a huge impact on moving stock prices of companies. It has been claimed that Elon Musk's twitter account could be Tesla's primary marketing tool since Tesla does not invest in marketing at all. The hypothesis of our analysis definately backs this theory. 
 
@@ -9,9 +9,9 @@ The purpose of our project is to find correlations between the stock price of Te
 
 
 
-### The data and preprocessing
+## The data and preprocessing
 
-QuoteBank data
+###QuoteBank data
 
 ***The data:*** The data with the quotes from different speakers are from QuoteBank. From the QuoteBank data we filtered quotes that were mentioned by the man the myth the legend Mr Elon Musk himself and wrote the it on a new file.
 
@@ -22,7 +22,7 @@ Monday.
 
 ***Figure 1:*** The number of Elon Musk quotes in respective to time. 
 
-Stock data
+###Stock data
 
 ***The Data:*** The Tesla stock price data was imported from Yahoo Finance. The data has the high, low, open, close, volume and adj close values. 
 ***Preprocessing:*** The dataset's start and end dates were adjusted to match with the quote data
@@ -31,7 +31,7 @@ Stock data
 
 ***Figure 2:*** Tesla's stock price through the years
 
-#### Phase one: Create sentimental analysis
+## Phase one: Create sentimental analysis
 
 The quality of each quote was examined by parsing each quote into separate words and by tokenizing the words. Each word played a signifficant role in shifting the stock market price. In addition, another factor that we believe impacts the stock price of Tesla is the volume of posts made by Musk each day he posted.
 
@@ -63,7 +63,7 @@ The quotes were split into separate words and each word was classified using the
 
 
 
-#### Comparison between Textblob and Vader
+## Comparison between Textblob and Vader
 
 
 We can see that both analysis indicate similar results. The quotes consisted mostly of positive words (words that have a value above zero), but we should keep in mind that roughly 70% of the quotes are greater than zero. This means that majority of the quotes contain words that are neutrally positive rather than over positive. 
@@ -75,8 +75,7 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 
 
 
-#### The impact of the quotes on the stock price
-
+## The impact of the quotes on the stock price
 
 
 *** "I was always crazy on Twitter" - Elon Musk ***
@@ -102,7 +101,7 @@ Interactive Plotly Plot             |  Geopandas Plot
 <img src='https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_binging_with_babbage/blob/master/Pictures/0dd39927-7cb6-4a22-8530-03d8d00d9d51.png' width = 800 height = 300>  width = 400 height = 300>
 
 
-#### Conclusion
+## Conclusion
 
 
 
