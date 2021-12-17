@@ -13,7 +13,7 @@ The purpose of our project is to find correlations between the stock price of Te
 
 ### QuoteBank data
 
-***The data:*** The data with the quotes from different speakers are from QuoteBank. From the QuoteBank data we filtered quotes that were mentioned by the man the myth the legend Mr Elon Musk himself and wrote the it on a new file.
+***Basic info:*** The data with the quotes from different speakers are from QuoteBank. From the QuoteBank data we filtered quotes that were mentioned by the man the myth the legend Mr Elon Musk himself and wrote the it on a new file.
 
 ***Preprocessing:*** Since during the weekends the stock markets are closed, it was necessary to move all quotes that were posted during weekends to be on the next 
 Monday. 
@@ -24,7 +24,7 @@ Monday.
 
 ### Stock data
 
-***The Data:*** The Tesla stock price data was imported from Yahoo Finance. The data has the high, low, open, close, volume and adj close values. '
+***Basic info:*** The Tesla stock price data was imported from Yahoo Finance. The data has the high, low, open, close, volume and adj close values. '
 
 ***Preprocessing:*** The dataset's start and end dates were adjusted to match with the quote data
 
