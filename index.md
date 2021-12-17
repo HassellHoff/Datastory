@@ -11,7 +11,7 @@ The purpose of our project is to find correlations between the stock price of Te
 
 ## The data and preprocessing
 
-###QuoteBank data
+### QuoteBank data
 
 ***The data:*** The data with the quotes from different speakers are from QuoteBank. From the QuoteBank data we filtered quotes that were mentioned by the man the myth the legend Mr Elon Musk himself and wrote the it on a new file.
 
@@ -22,9 +22,10 @@ Monday.
 
 ***Figure 1:*** The number of Elon Musk quotes in respective to time. 
 
-###Stock data
+### Stock data
 
-***The Data:*** The Tesla stock price data was imported from Yahoo Finance. The data has the high, low, open, close, volume and adj close values. 
+***The Data:*** The Tesla stock price data was imported from Yahoo Finance. The data has the high, low, open, close, volume and adj close values. '
+
 ***Preprocessing:*** The dataset's start and end dates were adjusted to match with the quote data
 
 <img width="385" alt="Screenshot 2021-12-17 at 9 22 11" src="https://user-images.githubusercontent.com/92207222/146505557-6a81ea89-fe1b-43e6-af6c-87f6fa03b0de.png">
@@ -78,7 +79,7 @@ We can see that both analysis indicate similar results. The quotes consisted mos
 ## The impact of the quotes on the stock price
 
 
-*** "I was always crazy on Twitter" - Elon Musk ***
+***"I was always crazy on Twitter" - Elon Musk ***
 
 https://www.dontdiewondering.com/elon-musks-most-controversial-tweets/
 
