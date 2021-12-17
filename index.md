@@ -18,7 +18,7 @@ QuoteBank data
 ***Preprocessing:*** Since during the weekends the stock markets are closed, it was necessary to move all quotes that were posted during weekends to be on the next 
 Monday. 
 
-<img width="924" alt="Screenshot 2021-12-14 at 16 49 36" src="https://user-images.githubusercontent.com/92207222/146021223-c579bade-a3e1-46d7-a1e8-3c6f36700448.png">
+<img width="1638" alt="Screenshot 2021-12-17 at 8 51 32" src="https://user-images.githubusercontent.com/92207222/146501806-c1558819-3296-4a2e-b20f-a08bae2853a5.png">
 
 ***Figure 1:*** The number of Elon Musk quotes in respective to time. 
 
@@ -27,10 +27,9 @@ Stock data
 ***The Data:*** The Tesla stock price data was imported from Yahoo Finance. The data has the high, low, open, close, volume and adj close values. 
 ***Preprocessing:*** The dataset's start and end dates were adjusted to match with the quote data
 
-<img width="1638" alt="Screenshot 2021-12-17 at 8 51 32" src="https://user-images.githubusercontent.com/92207222/146501806-c1558819-3296-4a2e-b20f-a08bae2853a5.png">
+<img width="385" alt="Screenshot 2021-12-17 at 9 22 11" src="https://user-images.githubusercontent.com/92207222/146505557-6a81ea89-fe1b-43e6-af6c-87f6fa03b0de.png">
 
 ***Figure 2:*** Tesla's stock price through the years
-
 
 #### Phase one: Create sentimental analysis
 
